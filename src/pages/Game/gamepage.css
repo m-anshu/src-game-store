@@ -1,0 +1,129 @@
+/* game-page.css */
+.game-page-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 20px;
+  background: linear-gradient(to right, black, gray); /* Linear gradient from black to grey without changing opacity */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+  color: #fff; /* Text color */
+} 
+  
+  .game-page-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .game-page-image {
+    width: 1100px;
+    height: 650px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+  }
+  .game-page-dbutton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .game-page-button {
+    background-color: #0d1a23;
+    font-weight: bolder;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition for the background color */
+  }
+  
+  .game-page-button:hover {
+    background-color: #17334f; /* Change the background color on hover */
+  }
+  
+
+
+  .game-page-desc{
+    font-size: 24px;
+    font-family: monospace;
+  }
+
+  .game-page-price{
+    font-size:24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(1, 192, 255) ; 
+  }
+  .game-page-rating {
+    margin-top:100px;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(1, 192, 255) ;
+    font-size: 24px;
+    cursor: default;
+  } 
+  .game-page-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .game-page-wishlist-button,
+  .game-page-cart-button {
+    background-color: #e74c3c; /* Red for Wishlist */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-grow: 1;
+  }
+  
+  .game-page-cart-button {
+    background-color: #2ecc71; /* Green for Cart */
+    margin-left: 10px;
+  }
+  .game-page-star-head{
+    font-size: 24px;
+  }
+  .game-page-star {
+    cursor: pointer;
+    font-size: 60px;
+    color: gray;
+    transition: color 0.3s ease;
+  }
+  
+  .game-page-star:hover,
+  .game-page-star.active {
+    color: gold;
+  }
+  
+  .game-page-review-container {
+    margin-top: 20px;
+  }
+  
+  .game-page-textarea {
+    width: 800px;
+    padding: 10px;
+    margin-top: 10px;
+    resize: vertical;
+    color: rgb(28, 28, 137);
+    font-size: larger;
+    background-color: #8c8f8e;
+  }
+  
+  .game-page-submit-button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  
