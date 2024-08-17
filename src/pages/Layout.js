@@ -21,7 +21,7 @@ const Layout = () => {
   return (
     <div class="layout">
       <Link to='/' class='title'>
-      <h1 class='title'>BLIZZARD GAMES</h1>
+      <h1 class='title'>AZURE GAMES</h1>
       </Link>
       <nav>
         <Link to="/">Home</Link>
